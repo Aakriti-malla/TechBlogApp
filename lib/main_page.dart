@@ -8,10 +8,10 @@ class MenuPage extends StatelessWidget {
       body: SafeArea(
           child: Column(
             children: [
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
-              Center(
+              const Center(
                 child: Text(
                   'Choose an option',
                   style: TextStyle(
@@ -20,7 +20,7 @@ class MenuPage extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 150,
               ),
               GestureDetector(
@@ -29,13 +29,13 @@ class MenuPage extends StatelessWidget {
                 },
                 child: ClipRRect(
                     borderRadius : BorderRadius.circular(15.0),
-                    child: Image(
+                    child: const Image(
                       width: 350,
                       image: AssetImage('Assets/1.jpg'),
                     )
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 50,
               ),
               GestureDetector(
@@ -44,7 +44,7 @@ class MenuPage extends StatelessWidget {
                 },
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(15.0),
-                  child: Image(
+                  child: const Image(
                     width: 350,
                     image: AssetImage('Assets/2.jpg'),
                   ),
